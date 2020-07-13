@@ -2,7 +2,7 @@ import discord
 import os
 from discord.ext import commands
 
-TOKEN = "NzI3NzY3NzkxMjQ3MDMyMzUw.Xwvp0A.7kRbA1ou_87X1xjY3cbfMLysSYk"
+TOKEN = "NzI3NzY3NzkxMjQ3MDMyMzUw.Xwvq2g.0mm9MyOfBZq4FewO_r0lGuZwPEs"
 
 bot = commands.AutoShardedBot(command_prefix="-")
 bot.remove_command('help')
