@@ -21,7 +21,6 @@ async def _suggest(ctx, *, suggestion=None):
         await ctx.send(embed=embed)
         return
     channel = ctx.guild.get_channel(729176150542254100)
-    channel = ctx.guild.get_(729176150542254100)
     if not channel:
         await ctx.send("This channel does not exist in this server!")
         return
