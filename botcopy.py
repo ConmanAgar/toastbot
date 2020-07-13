@@ -2,8 +2,6 @@ import discord
 import os
 from discord.ext import commands
 
-TOKEN = "NzI3NzY3NzkxMjQ3MDMyMzUw.Xwvq2g.0mm9MyOfBZq4FewO_r0lGuZwPEs"
-
 bot = commands.AutoShardedBot(command_prefix="-")
 bot.remove_command('help')
 
@@ -53,4 +51,4 @@ async def close(ctx):
     await bot.close()
     print("Bot Closed")
 
-bot.run(TOKEN)
+bot.run(os.environ['DISCORD_TOKEN'])
